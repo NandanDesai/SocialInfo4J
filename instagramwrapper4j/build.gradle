@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.nandandesai'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //implementation files('libs/instagram4j-1.13.jar')
+    implementation "com.squareup.okhttp3:okhttp:3.12.0"
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+    //testImplementation(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1')
+}
